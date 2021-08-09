@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.raga {
+  background-color: #205f8a;
+  position: fixed;
+  top: 0px;
+  width: 98.5%;
+  height: 25px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: whitesmoke;
+  transition: 2s;
+  z-index: 999;
+}
+
+.raga :hover {
+  background-color: rgb(112, 157, 221);
+  transition: 2s;
+  color: rgb(10, 18, 31);
+  height: 25px;
+}
+
+.batin a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.image {
+  /* background-color: white; */
+  width: 550px;
+  height: 500px;
+  margin-top: 50px;
+}
+
+.image .awal {
+  padding: 30px;
+  text-align: left;
+  color: rgb(67, 85, 167);
+  font-style: italic;
+  font-weight: bold;
+  font-size: 55px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  position: absolute;
+  left: 60px;
+  top: 200px;
+}
+
+.image .satu {
+  text-align: left;
+  color: rgb(82, 63, 119);
+  font-family: cursive;
+  font-size: 18px;
+  font-weight: bold;
+  position: absolute;
+  left: 75px;
+  top: 400px;
+}
+
+img {
+  width: 650px;
+  height: 500px;
+  position: absolute;
+  right: 0px;
+  left: 750px;
+  top: 100px;
+}
+
+.gelombang {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.look {
+  color: rgb(152, 207, 224);
+  background-color: #5190bb;
+  padding: 20px;
+  animation: gerak 3s alternate infinite;
+  text-align: left;
+}
+
+@keyframes gerak {
+  from {
+    width: 200px;
+  }
+  to {
+    width: 97%;
+  }
+}
+
+.lego {
+  background-color: #6cdbb6;
+  padding-top: 40px;
+  padding-left: 35px;
+  color: rgb(82, 63, 119);
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+.lego img {
+  width: 370px;
+  height: 200px;
+  position: static;
+  margin-bottom: 20px;
+}
+
+.kel-1 .tim {
+  background-color: white;
+}
+
+.tim img {
+  width: 50px;
+  height: 60px;
+  position: absolute;
+  top: 1610px;
+  left: 0px;
+}
+
+.kel-1 .tim p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  color: #205f8a;
+  margin-left: 70px;
+  margin-top: 0px;
+  position: absolute;
+  top: 1610px;
+}
+
+.kel-1 .member {
+  background-color: white;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.member p {
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-weight: bold;
+  font-size: 35px;
+  margin: 0 10px;
+  text-decoration: none;
+  color: #3c4852;
+}
